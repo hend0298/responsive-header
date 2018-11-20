@@ -106,6 +106,10 @@ nav a:hover {
     margin: .9rem;
   }
 
+  nav ul {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
