@@ -51,6 +51,14 @@ nav a:hover {
   color: #fff;
 }
 
+@media only screen and (min-width: 20em) {
+
+  nav a {
+    margin: .5em 0;
+  }
+
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -60,6 +68,10 @@ nav a:hover {
 
   nav ul li {
     width: 50%;
+  }
+
+  nav a {
+    margin: 0;
   }
 
 }
